@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  width: 400px;
+  height: 225px;
+  background: linear-gradient(135deg, #1a237e 0%, #0d47a1 100%);
+  border-radius: 15px; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 28px; 
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); 
+}
+
+button {
+  width: 90%; 
+  padding: 12px;
+  margin: 10px 0; 
+  background-color: #42a5f5; 
+  color: white; 
+  border: none; 
+  border-radius: 25px; 
+  font-size: 16px; 
+  font-weight: 600; 
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+button:hover {
+  background-color: #1e88e5; 
+  transform: translateY(-2px); 
+}
+
+#result {
+  margin-top: 20px; 
+  font-size: 20px; 
+  color: #ffffff; 
+  font-weight: 500; 
+}
+
+#sgpaLabel {
+  font-size: 34px; 
+  font-weight: bold; 
+  color: #ffeb3b; 
+  margin-left: 5px; 
+}
+
+#linkContainer {
+  margin-top: 10px; 
+  display: flex; 
+  gap: 10px; 
+  font-size: 12px; 
+}
+
+#linkContainer a {
+  color: #ffd600;
+  text-decoration: none; 
+  transition: color 0.3s; 
+}
+
+#linkContainer a:hover {
+  color: #ffeb3b; 
+}
